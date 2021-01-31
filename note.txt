@@ -1,0 +1,5 @@
+install sqlite -> super light weight, fast
+	https://www.guru99.com/download-install-sqlite.html
+	
+
+
