@@ -1,5 +1,13 @@
+7:35 AM 1/31/2021
 install sqlite -> super light weight, fast
 	https://www.guru99.com/download-install-sqlite.html
-	
+
+8:10 AM 2/1/2021
+foxit reader:  6.0.6 : 84 mb
+
+adobe flash player 28 NPAPI 19.6 mb
+	uninstall -> nothing happened
+
+
 
 
