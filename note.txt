@@ -51,3 +51,8 @@
 
 	???? F12 – It is used by many web browsers to open the developer tools.
 
+	Ctr + Alt + Arrows: rotate monitor
+		Diable: 
+			Ctrl + Shift + F12 
+			-> "Options and Support"
+			-> Diable
