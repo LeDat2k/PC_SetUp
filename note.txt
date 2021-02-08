@@ -24,3 +24,30 @@ sublime open in cmd
 	Ctrl + Window + D: create new desktop
 	Ctrl + Window + -> | <- : move fast between 2 desktop like alt + tab
 		another way: slice 4 finger in touch pad 
+
+F - key in windows
+	F1 – Used by programs for opening Help.
+
+	F2 – Used by Windows for renaming files and folders. Also used by many manufacturers to let you access the BIOS settings when pressed immediately after powering on your computer.
+
+	F3 – Used for searching for files and content in various apps.
+
+	F4 – Pressed simultaneously with the Alt key, as in Alt + F4, it closes the active program. Pressed simultaneously with the Ctrl key, as in Ctrl + F4, it closes the active program window. It also closes the current browser tab, if you press Ctrl + F4 in a web browser.
+
+	F5 – Used to refresh the contents of the current window. It can be used for refreshing the contents of a folder, but it’s especially used for refreshing the contents of the web pages you visit using web browsers. When used in conjunction with theCtrl or the Shift keys (as in Ctrl + F5, or Shift + F5) in a web browser, it reloads the web page ignoring the cached content, and re-downloading the entire content of the web page all over again.
+
+	F6 – Doesn’t have a standard use in Windows and its action differs from program to program.
+
+	F7 – It doesn’t have a standard use in Windows. Its action differs from program to program.
+
+	????	F8 – If you use Windows 7 or earlier, pressing the F8 key during boot process would display the Windows startup menu which is a method for accessing various troubleshooting options, like entering Safe Mode.
+
+**** F9 – It doesn’t have a standard use in Windows.
+
+	F10 – Used to enable the menu of the program that you use. After you press F10 on your keyboard, you can use the directional keys to navigate through the program’s menu options. When used in combination with the Shift key, it displays the right-click menu. When you are inside your computer’s BIOS, F10 is usually used for saving the changes that you made to the BIOS settings.
+
+	F11 – When pressed inside a web browser, it displays the current web page in full-screen mode. When pressed again, it reverts the display to its original, normal, state.
+
+???? F12 – It is used by many web browsers to open the developer tools.
+
+"git commit -am." : git commit without message
