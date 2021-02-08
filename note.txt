@@ -1,6 +1,6 @@
 7:35 AM 1/31/2021
 install sqlite -> super light weight, fast
-	https://www.guru99.com/download-install-sqlite.html
+	https://www.guru99.com/download-install-sqlite.htlm
 
 8:10 AM 2/1/2021
 foxit reader:  6.0.6 : 84 mb
@@ -8,6 +8,19 @@ foxit reader:  6.0.6 : 84 mb
 adobe flash player 28 NPAPI 19.6 mb
 	uninstall -> nothing happened
 
+7:22 PM 8/2/2021
+sublime open in cmd
+	Add the installation folder to windows path and you will be able to open Sublime by typing the name of the executable file, which is by default "subl".
 
+	To include the Sublime installation folder in windows path,
 
+	- Open command prompt and type sysdm.cpl
+	- In Advanced tab, select Environment variables
+	- Under system variables, select variable named "Path" and click Edit.
+	- Add "C:\Program Files\Sublime Text 3;" to the end of the existing string.
+	- Save the changes and restart command prompt.
 
+2 Desktop = 2 workspace in windows 10
+	Ctrl + Window + D: create new desktop
+	Ctrl + Window + -> | <- : move fast between 2 desktop like alt + tab
+		another way: slice 4 finger in touch pad 
