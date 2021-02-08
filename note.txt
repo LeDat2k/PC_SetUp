@@ -1,7 +1,7 @@
 7:35 AM 1/31/2021
 	install sqlite -> super light weight, fast
 		https://www.guru99.com/download-install-sqlite.htlm
-		
+
 	"git commit -am." : git commit without message
 8:10 AM 2/1/2021
 	foxit reader:  6.0.6 : 84 mb
@@ -50,5 +50,4 @@
 		F11 – When pressed inside a web browser, it displays the current web page in full-screen mode. When pressed again, it reverts the display to its original, normal, state.
 
 	???? F12 – It is used by many web browsers to open the developer tools.
-
 
