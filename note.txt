@@ -26,6 +26,12 @@
 		Ctrl + Window + -> | <- : move fast between 2 desktop like alt + tab
 			another way: slice 4 finger in touch pad 
 
+	Ctr + Alt + Arrows: rotate monitor
+		Diable: 
+			Ctrl + Shift + F12 
+			-> "Options and Support"
+			-> Diable
+
 	F - key in windows
 		F1 – Used by programs for opening Help.
 
@@ -43,16 +49,22 @@
 
 		????	F8 – If you use Windows 7 or earlier, pressing the F8 key during boot process would display the Windows startup menu which is a method for accessing various troubleshooting options, like entering Safe Mode.
 
-	**** F9 – It doesn’t have a standard use in Windows.
+		****    F9 – It doesn’t have a standard use in Windows.
 
 		F10 – Used to enable the menu of the program that you use. After you press F10 on your keyboard, you can use the directional keys to navigate through the program’s menu options. When used in combination with the Shift key, it displays the right-click menu. When you are inside your computer’s BIOS, F10 is usually used for saving the changes that you made to the BIOS settings.
 
 		F11 – When pressed inside a web browser, it displays the current web page in full-screen mode. When pressed again, it reverts the display to its original, normal, state.
 
-	???? F12 – It is used by many web browsers to open the developer tools.
+		????    F12 – It is used by many web browsers to open the developer tools.
 
-	Ctr + Alt + Arrows: rotate monitor
-		Diable: 
-			Ctrl + Shift + F12 
-			-> "Options and Support"
-			-> Diable
+
+	Ctrl + L: select 1 line sublime text | vscode shortcut
+	Ctrl + Alt + up/down arrow: add new cursor sublime text | vscode
+
+
+	shutdown -s -t 3600 : shutdown after 1 hour
+	shutdown -s : shutdown
+	shutdown -r : restart
+	
+
+

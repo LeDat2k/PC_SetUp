@@ -21,6 +21,8 @@ WHERE s.challenge_id = c.challenge_id AND c.difficulty_level = d.difficulty_leve
 GROUP BY s.hacker_id
 ORDER BY n_full_score DESC;
 
+jifdjf
+
 
 
 
