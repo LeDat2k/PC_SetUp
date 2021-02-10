@@ -66,5 +66,10 @@
 	shutdown -s : shutdown
 	shutdown -r : restart
 	
+10/2/2021
+	Bing to google search
+		https://www.howtogeek.com/226638/make-the-windows-10-start-menu-and-cortana-search-google-instead-of-bing/
+		Done ✔
+		
 
 
