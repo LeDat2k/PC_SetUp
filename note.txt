@@ -58,13 +58,8 @@
 		????    F12 – It is used by many web browsers to open the developer tools.
 
 
-	Ctrl + L: select 1 line sublime text | vscode shortcut
-	Ctrl + Alt + up/down arrow: add new cursor sublime text | vscode
-
-
 	shutdown -s -t 3600 : shutdown after 1 hour
-	shutdown -s : shutdown
-	shutdown -r : restart
-	
+	shutdown -s : shutdown after 1 min
+	shutdown -r : restart after 1 min
 
 
