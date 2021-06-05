@@ -3,6 +3,7 @@
 		https://www.guru99.com/download-install-sqlite.htlm
 
 	"git commit -am." : git commit without message
+
 8:10 AM 2/1/2021
 	foxit reader:  6.0.6 : 84 mb
 
@@ -69,7 +70,7 @@
 10/2/2021
 	Bing to google search
 		https://www.howtogeek.com/226638/make-the-windows-10-start-menu-and-cortana-search-google-instead-of-bing/
-		Done ✔
+
 		
 
 
