@@ -1,14 +1,5 @@
-7:35 AM 1/31/2021
-	install sqlite -> super light weight, fast
-		https://www.guru99.com/download-install-sqlite.htlm
-
-	"git commit -am." : git commit without message
-
 8:10 AM 2/1/2021
 	foxit reader:  6.0.6 : 84 mb
-
-	adobe flash player 28 NPAPI 19.6 mb
-		uninstall -> nothing happened
 
 7:22 PM 8/2/2021
 	sublime open in cmd
@@ -34,10 +25,6 @@
 			-> Diable
 
 	F - key in windows
-		F1 – Used by programs for opening Help.
-
-		F2 – Used by Windows for renaming files and folders. Also used by many manufacturers to let you access the BIOS settings when pressed immediately after powering on your computer.
-
 		F3 – Used for searching for files and content in various apps.
 
 		F4 – Pressed simultaneously with the Alt key, as in Alt + F4, it closes the active program. Pressed simultaneously with the Ctrl key, as in Ctrl + F4, it closes the active program window. It also closes the current browser tab, if you press Ctrl + F4 in a web browser.
@@ -59,7 +46,6 @@
 		????    F12 – It is used by many web browsers to open the developer tools.
 
 
-	Ctrl + L: select 1 line sublime text | vscode shortcut
 	Ctrl + Alt + up/down arrow: add new cursor sublime text | vscode
 
 
