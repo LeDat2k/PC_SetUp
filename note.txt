@@ -1,0 +1,62 @@
+8:10 AM 2/1/2021
+	foxit reader:  6.0.6 : 84 mb
+
+7:22 PM 8/2/2021
+	sublime open in cmd
+		Add the installation folder to windows path and you will be able to open Sublime by typing the name of the executable file, which is by default "subl".
+
+		To include the Sublime installation folder in windows path,
+
+		- Open command prompt and type sysdm.cpl
+		- In Advanced tab, select Environment variables
+		- Under system variables, select variable named "Path" and click Edit.
+		- Add "C:\Program Files\Sublime Text 3;" to the end of the existing string.
+		- Save the changes and restart command prompt.
+
+	2 Desktop = 2 workspace in windows 10
+		Ctrl + Window + D: create new desktop
+		Ctrl + Window + -> | <- : move fast between 2 desktop like alt + tab
+			another way: slice 4 finger in touch pad 
+
+	Ctr + Alt + Arrows: rotate monitor
+		Diable: 
+			Ctrl + Shift + F12 
+			-> "Options and Support"
+			-> Diable
+
+	F - key in windows
+		F3 – Used for searching for files and content in various apps.
+
+		F4 – Pressed simultaneously with the Alt key, as in Alt + F4, it closes the active program. Pressed simultaneously with the Ctrl key, as in Ctrl + F4, it closes the active program window. It also closes the current browser tab, if you press Ctrl + F4 in a web browser.
+
+		F5 – Used to refresh the contents of the current window. It can be used for refreshing the contents of a folder, but it’s especially used for refreshing the contents of the web pages you visit using web browsers. When used in conjunction with theCtrl or the Shift keys (as in Ctrl + F5, or Shift + F5) in a web browser, it reloads the web page ignoring the cached content, and re-downloading the entire content of the web page all over again.
+
+		F6 – Doesn’t have a standard use in Windows and its action differs from program to program.
+
+		F7 – It doesn’t have a standard use in Windows. Its action differs from program to program.
+
+		????	F8 – If you use Windows 7 or earlier, pressing the F8 key during boot process would display the Windows startup menu which is a method for accessing various troubleshooting options, like entering Safe Mode.
+
+		****    F9 – It doesn’t have a standard use in Windows.
+
+		F10 – Used to enable the menu of the program that you use. After you press F10 on your keyboard, you can use the directional keys to navigate through the program’s menu options. When used in combination with the Shift key, it displays the right-click menu. When you are inside your computer’s BIOS, F10 is usually used for saving the changes that you made to the BIOS settings.
+
+		F11 – When pressed inside a web browser, it displays the current web page in full-screen mode. When pressed again, it reverts the display to its original, normal, state.
+
+		????    F12 – It is used by many web browsers to open the developer tools.
+
+
+	Ctrl + Alt + up/down arrow: add new cursor sublime text | vscode
+
+
+	shutdown -s -t 3600 : shutdown after 1 hour
+	shutdown -s : shutdown
+	shutdown -r : restart
+	
+10/2/2021
+	Bing to google search
+		https://www.howtogeek.com/226638/make-the-windows-10-start-menu-and-cortana-search-google-instead-of-bing/
+
+		
+
+
