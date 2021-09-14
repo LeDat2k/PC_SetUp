@@ -1,9 +1,10 @@
-htts://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15
-follow all step above to install `sql-server` and `sqlcmd`
+https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15
 
-sql-server Password: LinD2018$$$
+- follow all step above to install `sql-server` and `sqlcmd`
 
-sqlcmd -S localhost -U SA -P '<Password>'
+- sql-server Password: LinD2018$$$
+
+- sqlcmd -S localhost -U SA -P '<Password>'
 
 # sqlcmd: 
 	SELECT name from sys.databases;
@@ -17,3 +18,4 @@ sqlcmd -S localhost -U SA -P '<Password>'
 	GO
 
 	exit
+

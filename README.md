@@ -1,4 +1,5 @@
 # PC Set up
 
-- Ubuntu
-- Win10
+## Ubuntu
+
+## Win10
