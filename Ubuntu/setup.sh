@@ -1,16 +1,15 @@
 #!/bin/bash
  
 sudo apt update -y 
-sudo apt install -y curl vlc zsh git htop tmux
+sudo apt install -y curl vlc zsh git htop tmux python3-pip
 
-sudo apt-add-repository universe
+# sudo apt-add-repository universe
 sudo apt install gnome-tweak-tool
 
-sudo snap install --classic code
-sudo snap install sublime-text --classic
+# sudo snap install --classic code
+# sudo apt install sublime-text --classic
 
 sudo apt install gnome-shell-extension-autohidetopbar
-
 
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
