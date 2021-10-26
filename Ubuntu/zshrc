@@ -1,0 +1,83 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH="/home/dat/.oh-my-zsh"
+
+# run all .sh file in dir: manguonmo globally
+export PATH=$PATH:/mnt/d/code/Linux
+
+# https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="intheloop"
+# ZSH_THEME="random"
+
+ZSH_THEME_RANDOM_CANDIDATES=( 
+        "af-magic" "half-life" "itchy" "intheloop" "linuxonly" "jaischeema" "macovsky" "superjarin" "pygmalion"
+)
+
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(
+git
+zsh-autosuggestions
+zsh-syntax-highlighting
+zsh-z
+# zsh-aliases-exa
+)
+
+source $ZSH/oh-my-zsh.sh
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+
+alias q="exit"
+
+# alias zshconfig="nano ~/.zshrc"
+alias zshconfig="cd ; subl.exe .zshrc ; cd -"
+# alias zshconfig='subl ~/.zshrc'
+
+# Win open program
+# all .exe file in the WINDOWS env PATH that can open in wsl
+
+alias cmd='cmd.exe /c start'
+# alias cmd='cc <cmd.exe command>'
+
+#alias code='cmd.exe /c code'
+#alias code='/usr/share/code/bin/code'
+#alias subl='"/mnt/c/Program Files/Sublime Text/subl.exe"'
+#alias subl='/opt/sublime_text/sublime_text'
+alias subl='subl.exe'
+alias explorer='explorer.exe'
+alias expl='explorer.exe .'
+alias py='py.exe'
+
+# tmux alisas
+alias t='tmux'
+alias tl='tmux ls'
+alias ta='tmux a'
+alias tat='tmux a -t'
+
+# Window subsystem linux dir path : NO NUMBER IN PATH
+
+d='/mnt/d'
+c='/mnt/c'
+
+down='/mnt/c/Users/ASUS/Downloads'
+desk='/mnt/c/Users/ASUS/Desktop'
+doc='/mnt/c/Users/ASUS/Documents'
+mu='/mnt/c/Users/ASUS/Music'
+
+pro3='/mnt/c/Program Files (x86)'
+pro6='/mnt/c/Program Files'
+
+# keybinding: 
+bindkey '^H' backward-kill-word
+# bindkey '^V' bracketed-paste
+
+# alias ls='lsd'
+alias ls='exa --icons'
