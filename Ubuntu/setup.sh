@@ -78,10 +78,10 @@ sudo apt install -y nodejs npm
 # sudo apt -y install tlpui
 
 # table plus
-# wget -qO - http://deb.tableplus.com/apt.tableplus.com.gpg.key | sudo apt-key add -
-# sudo add-apt-repository "deb [arch=amd64] https://deb.tableplus.com/debian tableplus main"
-# sudo apt -y update
-# sudo apt -y install tableplus
+wget -qO - http://deb.tableplus.com/apt.tableplus.com.gpg.key | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://deb.tableplus.com/debian tableplus main"
+sudo apt -y update
+sudo apt -y install tableplus
 
 # WPS
 
