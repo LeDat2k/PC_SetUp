@@ -1,9 +1,8 @@
 #!/bin/bash
  
-sudo apt update -y 
 # terminal
-sudo apt install -y curl git
-sudo apt install -y zsh
+sudo apt update -y 
+sudo apt install -y curl git zsh
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -13,6 +12,9 @@ git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
 chsh -s $(which zsh)
 
 cat zshrc > ~/.zshrc
+
+# another app
+sudo apt install -y rofi tmux python3-pip xclip htop vlc bat nodejs npm docker.io default-jdk
 
 # sublime text
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -44,9 +46,6 @@ sudo apt update
 sudo apt install dbeaver-ce
 
 
-# another app
-sudo apt install -y rofi tmux python3-pip xclip htop vlc bat
-
 # espanso
 wget https://github.com/federico-terzi/espanso/releases/download/v0.7.3/espanso-debian-amd64.deb
 sudo apt install ./espanso-debian-amd64.deb
@@ -60,16 +59,21 @@ wget https://github.com/Peltoche/lsd/releases/download/0.20.1/lsd_0.20.1_amd64.d
 sudo dpkg -i lsd_0.20.1_amd64.deb && rm lsd_0.20.1_amd64.deb
 
 # move .ssh file 
-cd ssh/ && mv id_* ~/.ssh
-mv known_hosts ~/.ssh
+# cd ssh/ && mv id_* ~/.ssh
+# mv known_hosts ~/.ssh
 
-# Java
-sudo apt update
-sudo apt -y install default-jdk
+# flutter
+sudo snap install flutter --classic
+flutter doctor
+# echo "export PATH='$PATH:/snap/flutter/111/bin'" >> ~/.zshrc
 
-# NodeJS NPM
-sudo apt install -y nodejs npm
+# Jetbrain toolbox
+wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.22.10970.tar.gz
+# pycharm
+# sudo snap install pycharm-community --classic
 
+sudo apt install gnome-tweak-tool
+sudo apt install gnome-shell-extension-autohidetopbar
 
 # power manager
 # sudo apt install -y tlp powertop
@@ -78,16 +82,11 @@ sudo apt install -y nodejs npm
 # sudo apt -y install tlpui
 
 # table plus
-wget -qO - http://deb.tableplus.com/apt.tableplus.com.gpg.key | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://deb.tableplus.com/debian tableplus main"
-sudo apt -y update
-sudo apt -y install tableplus
-
-# WPS
-
+# wget -qO - http://deb.tableplus.com/apt.tableplus.com.gpg.key | sudo apt-key add -
+# sudo add-apt-repository "deb [arch=amd64] https://deb.tableplus.com/debian tableplus main"
+# sudo apt -y update
+# sudo apt -y install tableplus
 
 # sudo apt-add-repository universe
-# sudo apt install gnome-tweak-tool
 
-sudo apt install gnome-shell-extension-autohidetopbar
 

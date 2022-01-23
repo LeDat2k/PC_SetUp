@@ -1,19 +1,26 @@
 https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
 
+# Install MySQL
 sudo apt update
 sudo apt install -y mysql-server
 
+# Setup password for *sudo mysql*
 sudo mysql_secure_installation
-<!-- root pass: LinD2018 -->
-<!-- choose pass strong type -->
+<!-- root pass: Sqlmatkhau$1 -->
 
-<!-- mysql status -->
+
 sudo systemctl status mysql.service
 sudo systemctl start mysql.service
 sudo systemctl stop mysql.service
 
 sudo service mysql restart
 
+# Create password for root@localhost
+sudo mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Sqlmatkhau$1';
+mysql -u root -p 
+
+# Create User & Grant authority
 <!-- run mysql CLI -->
 sudo mysql
 

@@ -2,19 +2,17 @@ https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?vie
 https://www.youtube.com/watch?v=x6pYoWwtVAY
 
 
-- follow all step above to install `sql-server` and `sqlcmd`
+# Follow all step above to install `sql-server`
 
-- sql-server Password: LinD2019$$$
+- set sql-server Password: Sqlmatkhau$1
 
-- turn on/off sql-server
+# Install `sqlcmd`: follow all above step
 
-sudo systemctl status mssql-server
-sudo systemctl start mssql-server
-sudo systemctl stop mssql-server
-sudo systemctl disable mssql-server
-sudo systemctl enable mssql-server
+- After install sqlcmd set PATH to *zsh* instead of *bash*:
+echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.zshrc
+source ~/.zshrc
 
-- sqlcmd -S localhost -U SA -P '<Password>'
+- sqlcmd -S localhost -U SA -P 'Sqlmatkhau$1'
 
 # sqlcmd: 
 	SELECT name from sys.databases;
@@ -29,3 +27,10 @@ sudo systemctl enable mssql-server
 
 	exit
 
+# Turn on/off sql-server
+
+sudo systemctl status mssql-server
+sudo systemctl start mssql-server
+sudo systemctl stop mssql-server
+sudo systemctl disable mssql-server
+sudo systemctl enable mssql-server
