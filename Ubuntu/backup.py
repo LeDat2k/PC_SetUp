@@ -3,5 +3,6 @@
 ssh = r'~/.ssh'
 destination_ssh = r'.'
 
-if "__name__" = "__main__"
+if "__name__" == "__main__":
+  return
     
