@@ -14,7 +14,7 @@ chsh -s $(which zsh)
 cat zshrc > ~/.zshrc
 
 # another app
-sudo apt install -y rofi tmux python3-pip xclip htop vlc bat nodejs npm docker.io default-jdk
+sudo apt install -y rofi tmux python3-pip xclip htop vlc mpv bat nodejs npm docker.io default-jdk
 
 # sublime text
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -69,8 +69,9 @@ flutter doctor
 
 # Jetbrain toolbox
 wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.22.10970.tar.gz
-# pycharm
-# sudo snap install pycharm-community --classic
+
+# mongosh
+
 
 sudo apt install gnome-tweak-tool
 sudo apt install gnome-shell-extension-autohidetopbar
