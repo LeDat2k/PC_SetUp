@@ -16,6 +16,9 @@ cat zshrc > ~/.zshrc
 # another app
 sudo apt install -y rofi tmux python3-pip xclip htop vlc mpv bat nodejs npm docker.io default-jdk
 
+# notion
+sudo snap install notion-snap
+
 # sublime text
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo apt-get install apt-transport-https
@@ -24,8 +27,8 @@ sudo apt-get -y update
 sudo apt-get -y install sublime-text
 
 # google chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb && rm google-chrome-stable_current_amd64.deb
+# wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+# sudo dpkg -i google-chrome-stable_current_amd64.deb && rm google-chrome-stable_current_amd64.deb
 
 # vscode
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -36,7 +39,6 @@ sudo apt -y install apt-transport-https
 sudo apt -y update
 sudo apt -y install code # or code-insiders
 
-
 # DBeaver
 sudo apt update
 sudo apt -y install default-jdk
@@ -44,7 +46,6 @@ wget -O - https://dbeaver.io/debs/dbeaver.gpg.key | sudo apt-key add -
 echo "deb https://dbeaver.io/debs/dbeaver-ce /" | sudo tee /etc/apt/sources.list.d/dbeaver.list
 sudo apt update
 sudo apt install dbeaver-ce
-
 
 # espanso
 wget https://github.com/federico-terzi/espanso/releases/download/v0.7.3/espanso-debian-amd64.deb
