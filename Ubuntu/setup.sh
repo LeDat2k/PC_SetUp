@@ -73,7 +73,6 @@ wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.22.10970.tar.gz
 
 # mongosh
 
-
 sudo apt install gnome-tweak-tool
 sudo apt install gnome-shell-extension-autohidetopbar
 
